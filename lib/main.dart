@@ -114,7 +114,7 @@ class MyDrawer extends StatelessWidget {
                   Row(
                     children: [
                       Checkbox(value: isCheck, onChanged: checkCallback),
-                      const Text("Doubler #2")
+                      const Text("Doubler Bouton #2")
                     ],
                   )   
                 ]
