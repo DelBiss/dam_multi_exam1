@@ -151,22 +151,3 @@ class ToastElevatedButton extends StatelessWidget {
     );
   }
 }
-// class ToastElevatedButton extends StatelessWidget {
-//   late String text;
-//   final int nbWord;
-//    ToastElevatedButton({ Key? key, this.nbWord = 1 }) :
-//       super(key: key){
-//         text = generateWordPairs().take(nbWord).map((e) => e.asPascalCase).join(" ");
-//       }
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return ElevatedButton(
-//       child: Text(text),
-//       onPressed: (){
-//         var snackBar = SnackBar(content: Text(text));
-//         ScaffoldMessenger.maybeOf(context)?.showSnackBar(snackBar);
-//       },
-//     );
-//   }
-// }
